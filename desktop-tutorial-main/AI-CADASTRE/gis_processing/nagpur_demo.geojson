@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "mode": "demo",
+    "warning": "Synthetic demo layer near Nagpur for development only; not official cadastral data."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"name": "Demo Parcel A", "kind": "parcel"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[79.0888, 21.1457], [79.0893, 21.1457], [79.0893, 21.1462], [79.0888, 21.1462], [79.0888, 21.1457]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"name": "Demo Road 1", "kind": "road"},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[79.0882, 21.1452], [79.0903, 21.1463]]
+      }
+    }
+  ]
+}

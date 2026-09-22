@@ -1,0 +1,13 @@
+model:
+  name: unet_placeholder
+  framework: pytorch
+training:
+  epochs: 1
+  batch_size: 2
+  note: demo config only
+evaluation:
+  metrics:
+    - iou
+    - precision
+    - recall
+    - f1
